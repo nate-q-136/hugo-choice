@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" modified="2024-07-08T15:56:14.097Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5uuW-bAGNZJUM_QSTvAK" version="24.6.4" type="device">
+  <diagram name="Page-1" id="rFekaQZfeCcqWR2ll_w5">
+    <mxGraphModel dx="1122" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-1" value="Authentication with Gmail (Dùng fire base)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-2" value="Nhập tên" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-3" value="Nhập những người muốn đề cử cho các giải" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-4" value="Submit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="440" as="sourcePoint" />
+            <mxPoint x="340" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="440" as="sourcePoint" />
+            <mxPoint x="580" y="439.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-7" value="nếu điền rồi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-8" value="nếu điền rồi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="730" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="440" as="sourcePoint" />
+            <mxPoint x="800" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-11" value="Authentication with Gmail (Dùng fire base)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-12" value="Nhập tên&lt;div&gt;Chọn team&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-13" value="Nhập những người muốn đề cử cho các giải" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-14" value="Submit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="829.41" as="sourcePoint" />
+            <mxPoint x="290" y="829.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="830" as="sourcePoint" />
+            <mxPoint x="580" y="829.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="830" as="sourcePoint" />
+            <mxPoint x="800" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-20" value="nếu hết điền rồi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="829.5" as="sourcePoint" />
+            <mxPoint x="1030" y="829.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-22" value="Update kết quả lên firebase" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="880" as="sourcePoint" />
+            <mxPoint x="870" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-25" value="nếu chưa điền hết" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="880" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-26" value="Chỉ rõ các trường chưa điền" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkcjRnhPe-eIqSJPSITC-27" value="https://www.figma.com/design/BlQjA0qAV64r73lbRlQfje/Untitled?node-id=0-1&amp;amp;t=SQeEO9QT2GsDBu16-1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="600" width="510" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
