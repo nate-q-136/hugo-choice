@@ -8,7 +8,7 @@ function App() {
   return (
     <FormProvider>
       <Router>
-        <div className="bg-cover bg-center min-h-screen h-screen" style={{ backgroundImage: "url('/bg.png')" }}>
+        <div className="bg-cover bg-center min-h-screen h-screen" style={{ backgroundImage: "url('/bg2.png')" }}>
           <div className="flex flex-col h-full">
             <div className="flex-1 flex">
               <Routes>
