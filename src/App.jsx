@@ -9,16 +9,16 @@ import { UserProvider } from './context/UserContext';
 function App() {
   return (
     <FormProvider>
-      <UserProvider>
-        <Router>
+      <Router>
+        <UserProvider>
           <Routes>
             <Route path="/" element={<StartingPage />} />
             <Route path="/page1" element={<Page1 />} />
             <Route path="/page2" element={<Page2/>} />
             <Route path="/page3" element={<Page3/>} />
           </Routes>
-        </Router>
-      </UserProvider>
+        </UserProvider>
+      </Router>
     </FormProvider>
   );
 }

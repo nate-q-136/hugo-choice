@@ -1,12 +1,11 @@
-// import React from "react";
-// import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import BackgroundContainer from "../components/BackgroundContainer/BackgroundContainer";
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 
 
+
 const StartingPage = () => { 
-    const { userData, handleAuth } = useContext(UserContext);
+    const { handleAuth } = useContext(UserContext);
 
     return (
         <BackgroundContainer bgImage="/bg_page_111.png" titleImage="/title_farewell.png">

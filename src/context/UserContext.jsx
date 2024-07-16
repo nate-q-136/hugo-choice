@@ -1,11 +1,13 @@
 import {createContext, useEffect, useState} from "react";
-import { getAuth, signInWithPopup, GoogleAuthProvider, signInWithCredential} from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signInWithCredential } from "firebase/auth";
+import { useNavigate } from "react-router-dom";
 
 export const UserContext = createContext({});
 
 // children are the components that are wrapped by the provider
 export const UserProvider = ({children}) => { 
     const [userData, setUserData] = useState(null);
+    const navigate = useNavigate();
 
     const provider = new GoogleAuthProvider();
     provider.addScope("email");
@@ -26,16 +28,20 @@ export const UserProvider = ({children}) => {
     }, []);
 
     const handleAuth = () => {
+        console.log("handleAuth");
         if (userData == null) {
             signInWithPopup(auth, provider).then(result => {
                 const credential = GoogleAuthProvider.credentialFromResult(result);
-
                 localStorage.setItem('idToken', credential.idToken);
                 localStorage.setItem("accessToken", credential.accessToken)
                 setUserData(result.user);
-            }).catch(error => {
+            })
+            .then(() => navigate("/page1"))
+            .catch(error => {
                 console.log("Error signing in with popup:", error);
             })
+        } else {
+            navigate("/page1");
         }
     }
 
