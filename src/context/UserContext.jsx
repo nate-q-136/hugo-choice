@@ -22,7 +22,8 @@ export const UserProvider = ({children}) => {
             signInWithCredential(auth, credential).then(result => {
                 setUserData(result.user);
             }).catch(error => {
-                console.log("Error signing in with credential:", error);
+                setUserData(null);
+                console.log("Token is expired:", error);
             });
         }
     }, []);
@@ -45,7 +46,14 @@ export const UserProvider = ({children}) => {
         }
     }
 
-    return <UserContext.Provider value={ {userData, handleAuth} }>
+    const handleLogout = () => {
+        localStorage.removeItem('idToken');
+        localStorage.removeItem('accessToken');
+        setUserData(null);
+        navigate("/");
+      }
+
+    return <UserContext.Provider value={ {userData, handleAuth, handleLogout} }>
         {children}
     </UserContext.Provider>
 } 
