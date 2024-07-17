@@ -1,11 +1,12 @@
 import React, { useContext, useEffect } from "react";
 import { FormContext } from "../context/FormContext";
+import { UserContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import BackgroundContainer from "../components/BackgroundContainer/BackgroundContainer";
 
 const Page1 = () => {
   const { state, dispatch } = useContext(FormContext);
+  const { userData, handleLogout } = useContext(UserContext);
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -30,8 +31,18 @@ const Page1 = () => {
 
   return (
     <BackgroundContainer bgImage="/bg_page_111.png" titleImage="/title_farewell.png">
+      <div className="relative">
+        <div className="absolute top-20 right-12 w-128 max-w-md max-sm:top-5 max-sm:right-1 max-sm:w-36"> 
+          <div className="sparkling-text text-white font-bold break-words truncate">
+            Welcome {userData.email} ! 
+          </div>
+          <button onClick={handleLogout} className="small-button sparkling-text" style={{fontSize: "1rem"}}>
+            Log out?
+          </button>
+        </div>
+      </div>
       <div className="grid grid-cols-1 mt-96 gap-4 px-12 max-sm:mt-36">
-        <div className="col-span-1 md:col-span-1 flex items-center justify-center">
+        <div className="col-span-1 md:col-span-1 flex flex-col items-center justify-center">
           <div
             className="bg-white p-8 rounded-xl shadow-md"
             style={{
