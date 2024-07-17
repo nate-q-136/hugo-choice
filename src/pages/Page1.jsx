@@ -32,11 +32,11 @@ const Page1 = () => {
   return (
     <BackgroundContainer bgImage="/bg_page_111.png" titleImage="/title_farewell.png">
       <div className="relative">
-        <div className="absolute top-12 right-20"> 
-          <span className="sparkling-text text-white font-bold">
+        <div className="absolute top-20 right-12 w-128 max-w-md max-sm:top-5 max-sm:right-1 max-sm:w-36"> 
+          <div className="sparkling-text text-white font-bold break-words truncate">
             Welcome {userData.email} ! 
-          </span>
-          <button onClick={handleLogout} className="custom-button transition-all duration-300" style={{fontSize: "1rem"}}>
+          </div>
+          <button onClick={handleLogout} className="small-button sparkling-text" style={{fontSize: "1rem"}}>
             Log out?
           </button>
         </div>
